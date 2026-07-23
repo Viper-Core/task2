@@ -193,4 +193,5 @@ def get_prices_and_save():
         conn.close()
 
 
-get_prices_and_save()
+if __name__ == "__main__":
+    get_prices_and_save()
